@@ -23,19 +23,19 @@ ALGORITHM:
 Algorithm for Framing
 Algorithm Byte Stuffing()
 {
-•	Get the data from the user.
-•	Search for FLAG and ESC character in the text.
-•	If available, add one extra ESC character to the text.
-•	Append the delimiter/flag value at the beginning and end of the data/payload.
-•	Print the frame.
+STEP 1:Get the data from the user.
+STEP 2:Search for FLAG and ESC character in the text.
+STEP 3:If available, add one extra ESC character to the text.
+STEP 4:Append the delimiter/flag value at the beginning and end of the data/payload.
+STEP 5:he frame.
 }
 
 Algorithm Byte de-Stuffing()
 {
-•	Get the byte stuffed data from ByteStuffing().
-•	If ESC character is available in the text, search whether it is followed by a FLAG or ESC character in the text. If so, eliminate the first ESC character which is an extra character.
-•	Remove the delimiter/flag value at the beginning and end of the data/payload.
-•	Print the original data.
+STEP 1:set the byte stuffed data from ByteStuffing().
+STEP 2: If ESC character is available in the text, search whether it is followed by a FLAG or ESC character in the text. If so, eliminate the first ESC character which is an extra character.
+STEP 3:Remove the delimiter/flag value at the beginning and end of the data/payload.
+STEP 4:Print the original data.
 }
 
 
