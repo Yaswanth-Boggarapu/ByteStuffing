@@ -27,7 +27,7 @@ STEP 1:Get the data from the user.
 STEP 2:Search for FLAG and ESC character in the text.
 STEP 3:If available, add one extra ESC character to the text.
 STEP 4:Append the delimiter/flag value at the beginning and end of the data/payload.
-STEP 5:he frame.
+STEP 5:print the frame.
 }
 
 Algorithm Byte de-Stuffing()
