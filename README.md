@@ -1,4 +1,4 @@
-# bytestuffing
+# ByteStuffing
 BYTE STUFFING
 
 For receiver, starting and ending of a frame is necessary to recognize the next frames transmitted by the sender.
